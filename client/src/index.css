@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #308d42 !important;
+  transform: scale(1.5) !important;
+}
+.swiper-button-next { 
+  color: #308d42 !important; 
+  transform: scale(1.5) !important;
+}
+.swiper-button-prev { 
+  color: #308d42 !important;
+  transform: scale(1.5) !important;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, #308d42 0, transparent 53%), radial-gradient(at 100% 60%, #308d42 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
